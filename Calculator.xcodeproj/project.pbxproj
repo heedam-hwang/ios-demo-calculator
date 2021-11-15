@@ -13,6 +13,7 @@
 		0E5EE0E7274233E900D77A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5EE0E5274233E900D77A0A /* Main.storyboard */; };
 		0E5EE0E9274233EA00D77A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5EE0E8274233EA00D77A0A /* Assets.xcassets */; };
 		0E5EE0EC274233EA00D77A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5EE0EA274233EA00D77A0A /* LaunchScreen.storyboard */; };
+		0E5EE0F4274253FE00D77A0A /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5EE0F3274253FE00D77A0A /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0E5EE0E8274233EA00D77A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E5EE0EB274233EA00D77A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5EE0ED274233EA00D77A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5EE0F3274253FE00D77A0A /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0E5EE0E1274233E900D77A0A /* SceneDelegate.swift */,
 				0E5EE0E3274233E900D77A0A /* ViewController.swift */,
 				0E5EE0E5274233E900D77A0A /* Main.storyboard */,
+				0E5EE0F3274253FE00D77A0A /* CalculatorBrain.swift */,
 				0E5EE0E8274233EA00D77A0A /* Assets.xcassets */,
 				0E5EE0EA274233EA00D77A0A /* LaunchScreen.storyboard */,
 				0E5EE0ED274233EA00D77A0A /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				0E5EE0E4274233E900D77A0A /* ViewController.swift in Sources */,
 				0E5EE0E0274233E900D77A0A /* AppDelegate.swift in Sources */,
+				0E5EE0F4274253FE00D77A0A /* CalculatorBrain.swift in Sources */,
 				0E5EE0E2274233E900D77A0A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -297,6 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +330,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
